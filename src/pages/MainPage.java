@@ -8,8 +8,8 @@ import org.openqa.selenium.WebElement;
 
 public class MainPage {
 	//list of elements used by this class
-	WebElement useCase;
-	
+	WebElement useCaseCard;
+	WebElement logOutButton;
 	
 	WebDriver driver;
 	
