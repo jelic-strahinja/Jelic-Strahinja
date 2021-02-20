@@ -16,11 +16,20 @@ public class MainPage {
 	public MainPage(WebDriver driver) {
 		this.driver = driver;
 	}
-	
+	//Use case card 
 	public WebElement getUseCaseBtn() {
 		return driver.findElement(By.xpath("//a[@href='/use-cases']"));
 	}
 	public void clickUseCase() {
 		getUseCaseBtn().click();
 	}
+	//logout button
+	public WebElement getLogoutButton() {
+		return driver.findElement(By.xpath("//a[@href='#top']"));
+	}
+	public void clickLogout() {
+		getLogoutButton().click();
+	}
+	
+	
 }
